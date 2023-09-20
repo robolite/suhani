@@ -12,7 +12,7 @@ int main(){
    cout<<"factorial is :"<<mul;
 }
 
-2)with while loop
+2)ii
 #include <iostream>
 using namespace std;
 
@@ -23,9 +23,7 @@ int main(){
     i++;
   }
    cout<<"factorial is :"<<mul;
-}
-
-b)
+} 
 
 3) with do while loop
   #include <iostream>
@@ -39,4 +37,91 @@ int main(){
  } while (i<=10);
    cout<<"factorial is :"<<mul;
 }
-  
+
+b)table of 77
+
+1)using for loop 
+#include<iostream>
+using namespace std;
+int main (){
+    int i = 1;
+    for (i;i<=10;i++){
+    cout<<"77 * "<<i<< " = "<<77*i<<"\n";}
+
+    return 0;
+}
+
+2)using while loop
+#include<iostream>
+using namespace std;
+int main (){
+    int i = 1;
+   while (i<=10){
+    cout<<"77 * "<<i<< " = "<<77*i<<"\n";
+    i++;
+    }
+
+    return 0;
+}
+3) using do while loop
+#include<iostream>
+using namespace std;
+int main (){
+    int i = 1;
+   do {
+    cout<<"77 * "<<i<< " = "<<77*i<<"\n";
+    i++;
+    } while (i<=10);
+
+   
+
+    return 0;
+}
+
+c)Alphabets from a to z and A to Z
+
+1) using for loop 
+#include<iostream>
+using namespace std;
+int main (){
+    char i ='a',j='A';
+   for (i;i<='z';i++){
+    cout << i<<"\n";
+   }
+   for (j;j<='Z';j++){
+    cout << j<<"\n";
+   }
+
+    return 0;
+}
+
+2) using while loop
+#include<iostream>
+using namespace std;
+int main (){
+    char i ='a',j='A';
+   for (i;i<='z';i++){
+    cout << i<<"\n";
+   }
+   for (j;j<='Z';j++){
+    cout << j<<"\n";
+   }
+
+    return 0;
+}
+3) using do while loop
+#include<iostream>
+using namespace std;
+int main (){
+    char i ='a',j='A';
+ do {
+    cout <<i<<"\n";
+    i++;
+   } while (i<='z');
+
+do {
+    cout<<j<<"\n";
+    j++;
+} while (j<='Z');
+    return 0;
+}
